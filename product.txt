@@ -1,4 +1,3 @@
 susu, 5000
 mie, 10000
 ayam, 20000
-teh hangat 6000
