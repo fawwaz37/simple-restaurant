@@ -25,14 +25,17 @@ Pada program restoran yang saya buat ini terintegrasi dengan file .txt sebagai d
 #### Register
 
 Input Username & Password
+
 <img src="image/register.png" width="400">
 
 Register Sukses
+
 <img src="image/register_sukses.png" width="400">
 
 #### Login
 
 Input username & password, jika sukses maka akan tampil **Menu Utama** dibawah ini
+
 <img src="image/login_sukses.png" width="400">
 
 #### Administrator Mode
@@ -40,30 +43,41 @@ Input username & password, jika sukses maka akan tampil **Menu Utama** dibawah i
 <img src="image/admin_menu.png" width="400">
 
 -   **Menambahkan Produk**
+
     Input Nama & Harga.
+
     <img src="image/add_product.png" width="400">
 
 -   **Show Produk**
+
     <img src="image/show_product.png" width="400">
 
 -   **Update Produk**
-    Input nama produk yang ingin diperbarui.
-    dan Input Harga terbarunya.
+
+    Input nama produk yang ingin diperbarui. dan Input Harga terbarunya.
+
     <img src="image/update_product.png" width="400">
 
 -   **Delete Produk**
+
     Input nama produk yang ingin dihapus.
+
     <img src="image/delete_product.png" width="400">
 
 #### Membuat Pesanan
 
 Input nama produk yang diinginkan beserta dengan jumlahnya.
+
 <img src="image/buat_pesanan.png" width="400">
 
 -   **Invoice**
+
     Jika input **no** pada pilihan diatas, maka akan menampilkan tagihan user.
+
     <img src="image/tagihan.png" width="400">
 
 -   **Payment**
+
     Jika input **CASH** lebih dari sama dengan total tagihan, maka tampilan sebagai berikut
+
     <img src="image/pembayaran_sukses.png" width="400">
