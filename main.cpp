@@ -390,6 +390,11 @@ class User {
     smatch m;
 
    public:
+    User(bool reg, bool log) {
+        this->isRegistered = reg;
+        this->isLogin = log;
+    }
+
     void textAuth();
     void registers(string name, string pass) {
         readFile.open("dataUser.txt");
@@ -487,9 +492,9 @@ awal:
 }
 
 int main() {
-    User user;
+    User user = User(false, false);
+    
     identitas();
-
     user.textAuth();
 
     return 0;
